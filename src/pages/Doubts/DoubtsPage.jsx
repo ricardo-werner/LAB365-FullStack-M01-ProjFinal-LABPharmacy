@@ -11,15 +11,15 @@ const DoubtsPage = () => {
     }
 
     return (
-        <>
+        <div>
             <Doubts />
-            <input 
+            <input
                 type="button"
-                className="btn btn-danger mx-3 my-2" 
-                value="Voltar" 
-                onClick={handleGoBack} 
+                className="btn btn-danger mx-3 my-2"
+                value="Voltar"
+                onClick={handleGoBack}
             />
-        </>
+        </div>
     );
 }
 

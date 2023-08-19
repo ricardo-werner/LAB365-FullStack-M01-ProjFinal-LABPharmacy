@@ -13,13 +13,13 @@ const RegisterPage = () => {
     };
 
     return (
-        <>
+        <div>
             <RegisterCard />
             <button 
                 type="button"
                 className="btn btn-danger mx-3 my-2"
                 onClick={handleLogout}>Logout</button>
-        </>
+        </div>
     );
 }
 

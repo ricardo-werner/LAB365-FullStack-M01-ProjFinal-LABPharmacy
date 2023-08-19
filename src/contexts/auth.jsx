@@ -22,7 +22,7 @@ export const AuthContextProvider = ({ children }) => {
 
         console.log("login auth", { email, password });
 
-        // api criar uma sessão  sem precisar de um servidor backend, até o momento
+        // api criar uma sessão sem precisar de um servidor backend, até o momento
         // esta retorna um usuario com id e email
         const loggerUser = {
             id: "123",

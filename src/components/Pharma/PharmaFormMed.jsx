@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
 function AddMedicamentos() {
     const history = useNavigate();
@@ -25,7 +21,7 @@ function AddMedicamentos() {
             try {
                 const response = await axios.get('http://localhost:5000/medications');
                 setMedicamentos(medicamentos, response.data)
-            {/*localStorage.setItem('medicamentos', JSON.stringify(response.data));*/}
+                {/*localStorage.setItem('medicamentos', JSON.stringify(response.data));*/ }
             } catch (error) {
                 console.error(error);
             }
@@ -56,9 +52,9 @@ function AddMedicamentos() {
     return (
         <div className="med-container mx-3 mt-1">
             <h2>Cadastrar novo Medicamento</h2>
-                  
+
             <form className='row justify-content-center'
-               onSubmit={handleSubmit}
+                onSubmit={handleSubmit}
             >
                 <fieldset className="col-md-6">
                     <label htmlFor="inputMedicamento" className="form-med-label mt-1">
@@ -161,12 +157,12 @@ function AddMedicamentos() {
                     ></textarea>
                 </fieldset>
                 <div className="d-grid gap-1 d-md-flex justify-content-md-end mt-2">
-                <input 
+                    <input
                         type="button"
-                        className="btn btn-outline-info me-md-1" 
-                        value="Voltar" 
-                        onClick={handleGoBack} 
-                    />                
+                        className="btn btn-outline-info me-md-1"
+                        value="Voltar"
+                        onClick={handleGoBack}
+                    />
                     <input
                         id="reset"
                         value="Limpar"
@@ -183,10 +179,10 @@ function AddMedicamentos() {
                             });
                         }}
                     />
-                    <input 
+                    <input
                         className="btn btn-success"
                         type="submit"
-                        value="Cadastrar"  
+                        value="Cadastrar"
                     />
                 </div>
             </form>
