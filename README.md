@@ -1,8 +1,8 @@
 ## Projeto Avaliativo do Módulo1
-## LAB365- FullStack - Itaguaçu
+### LAB365- FullStack - Itaguaçu
 
-## Criação de sistema de gerenciamento de Farmácias e Medicamentos com React
-## Nome do sistema: Pharmacy Central System 
+#### Criação de sistema de gerenciamento de Farmácias e Medicamentos com React
+#### Nome do sistema: Pharmacy Central System 
 
 ### 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ricardo-werner)
@@ -111,7 +111,7 @@ npm run dev
 
 Este projeto vem com o [JSON Server](https://www.npmjs.com/package/json-server) instalado e configurado.
 
-Este projeto já vem com o Bootstrap 5 e ract-bootstrap instalado e configurado.
+Este projeto já vem com o Bootstrap 5 e react-bootstrap instalado e configurado.
 
 login - teste@teste.com.br
 pwd - 123456789
@@ -120,5 +120,5 @@ pwd - 123456789
 ## Autor
 
 Ricardo Werner - 
-Dev em desenvolvimento - 
+Dev FullStack em desenvolvimento - 
 LAB365-FullStack-Itaguaçu
