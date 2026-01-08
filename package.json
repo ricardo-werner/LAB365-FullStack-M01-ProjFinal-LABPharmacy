@@ -31,7 +31,6 @@
     "react-input-mask": "^2.0.4",
     "react-leaflet": "^4.2.1",
     "react-modal": "^3.16.1",
-    "react-native": "^0.82.1",
     "react-router-dom": "^6.26.2",
     "react-select": "^5.8.0",
     "uuid": "^10.0.0",
