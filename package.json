@@ -12,7 +12,7 @@
   "dependencies": {
     "@emotion/styled": "^11.13.0",
     "@hookform/resolvers": "^3.9.0",
-    "axios": "^1.13.0",
+    "axios": "^1.13.5",
     "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.5.4",
